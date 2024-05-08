@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Island perimeter
+"""Island perimeter Modules.
 """
 
+
 def island_perimeter(grid):
-    """Computes perimeter of an island without lakes
+    """Computes the perimeter of an island described in grid.
     """
     perimeter = 0
     if type(grid) != list:
